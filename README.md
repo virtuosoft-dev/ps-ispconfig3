@@ -3,6 +3,8 @@ A standard installation of [ISPConfig3](https://ispconfig.org) following the ["P
 
 This built box can be found on [Vagrant Cloud](https://app.vagrantup.com/Virtuosoft/boxes/ps-ispconfig3)
 
+A repository regarding how this box was built, issue tracking, etc. [can be found on GitHub here](https://github.com/virtuosoft-dev/ps-ispconfig3).
+
 ## Credentials
 The Ubuntu box root login can be performed via `sudo su` (as opposed to the ISPConfig directions in step "1. Log in to the server", stating `su -`); then we proceeded with the standard install. After the standard install of `wget -O - https://get.ispconfig.org | sh -s -- --use-ftp-ports=40110-40210 --unattended-upgrades` the following credentials were recorded:
 
